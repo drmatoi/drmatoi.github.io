@@ -2,7 +2,7 @@
 # drmatoi.github.io - Mr.Matois Site
 <br>
 <p align="center">
-<img width="95%" src="https://github.com/drmatoi/drmatoi.github.io/blob/main/wecrynohtmlheader%20(2).jpg"\>
+
 </br>
 
 ## The WeCry Wiki Project - Mr.Matoi´s Site
