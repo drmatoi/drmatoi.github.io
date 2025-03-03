@@ -1,0 +1,374 @@
+body {
+	font: normal 10pt/14pt Verdana, Helvetica, sans-serif;
+	background: #000 url(https://i.gifer.com/embedded/download/42UQ.gif) repeat-y top left;
+        background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+tt {
+	font-size: 12px;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	vertical-align: top;
+}
+
+#container {
+	width: 800px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+#header {
+	width: 650px;
+	padding-left: 150px; /* 650 + 150 = 800 */
+	height: 150px;
+	background: #fff url(images/vidlogo.gif) no-repeat top left;
+	border: 1px solid #aaa;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+
+#header h1 {
+	font: normal 16pt/24pt Times New Roman, serif;
+	color: #059b00;
+	margin: 0;
+	padding-top: 8px;
+	padding-left: 16px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #aaa;
+}
+
+#header h2 {
+	font: bold 10pt/14pt Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding-top: 8px;
+	padding-left: 16px;
+}
+
+#chatnow {
+	float: right;
+	padding: 2px;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	background: #eee;
+	text-align: right;
+}
+
+#chatnow a {
+	font-style: italic;
+	font-size: 8pt;
+	line-height: 12pt;
+	color: #34c200;
+}
+
+#users {
+	position: relative;
+	top: 30px;
+	left: 20px;
+	height: 15px;
+	font-size: 8pt;
+}
+
+#navigation {
+	position: relative;
+	top: 35px;
+	width: 650px;
+}
+
+#navigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	height: 20px;
+}
+
+#navigation li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	border-right: 1px solid #aaa;
+	height: 20px;
+}
+
+#navigation li:hover {
+	background-color: #eee;
+}
+
+#navigation a {
+	font: normal 10pt Arial;
+	text-decoration: none;
+	color: #000e63;
+}
+
+#navigation a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	width: 780px;
+	margin-top: 20px;
+	background: #fff;
+	border: 1px solid #aaa;
+	font-size: 8pt;
+	overflow: hidden;
+	padding: 0 10px 10px 10px;
+	opacity: .85;
+	filter: alpha(opacity=85);
+}
+
+#content p, #content dl {
+	padding: 2px;
+	margin-left: 24px;
+	font: normal 12pt/16pt Times New Roman, serif;
+}
+
+#content pre {
+	padding: 2px;
+	margin-left: 24px;
+}
+
+#content li {
+	font: normal 12pt/16pt Times New Roman, serif;
+}
+
+#content li.informal {
+	font: normal 8pt/16pt Verdana, Helvetica, sans-serif;
+}
+
+#content table {
+	margin-left: 24px;
+}
+
+#content table th {
+	vertical-align: top;
+}
+
+#content table td p {
+	margin: 0;
+	padding: 0;
+}
+
+#content table td p.margin {
+	margin-top: 8px;
+}
+
+#content table.border {
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+}
+
+#content table.border td, #content table.border th {
+	border-bottom: 1px solid #aaa;
+	padding-left: 4px;
+}
+
+#content h3 {
+	font-size: 10pt;
+	padding-top: 8px;
+	color: #00932c;
+}
+
+#content h4 {
+	font-size: 10pt;
+	padding-left: 8px;
+	padding-top: 8px;
+	color: #000;
+}
+
+
+#news {
+	float: right;
+	width: 300px;
+	margin: 10px 0 10px 10px;
+	border: 1px solid #aaa;
+}
+
+#news h3 {
+	text-align: center;
+	font-size: 10pt;
+	margin: 0;
+	padding: 2px;
+	border-bottom: 1px solid #aaa;
+	background: #eee;
+}
+
+#news ul {
+	list-style: none;
+	padding: 0;
+	margin: 8px;
+}
+
+#news li {
+	background: #eee;
+	font-size: 8pt;
+	border-top: 1px solid #aaa;
+}
+
+#news li p {
+	border-top: 1px solid #aaa;
+	background: #fff;
+	padding: 4px;
+	margin: 0;
+	font: normal 8pt/12pt Verdana, Helvetica, sans-serif;
+}
+
+#footer {
+	width: 800px;
+	margin-top: 20px;
+	background: #fff;
+	border: 1px solid #aaa;
+	opacity: .85;
+	filter: alpha(opacity=85);
+	margin-bottom: 35px;
+}
+
+#footer p {
+	color: #aaa;
+	font-size: 8pt;
+	margin: 4px;
+	text-align: center;
+}
+
+.subNavigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.subNavigation li {
+	display: inline;
+	border-right: 1px solid #aaa;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.subNavigation li.last {
+	border-right: none;
+}
+
+.subNavigation li a {
+	font: 8pt/normal Verdana, Helvetica, sans-serif;
+}
+
+.commaList {
+	list-style: none,
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+.commaList li {
+	display: inline;
+}
+
+.commaList li:after {
+	content: ",";
+}
+
+.commaList li:last-child:after {
+	content: "";
+}
+
+pre.command {
+	border: 1px solid #aaa;
+	background: #eee;
+	color: #000e63;
+}
+
+table pre.command {
+	margin: 2px;
+}
+
+.bold { font-weight: bold; }
+.left { float: left; }
+.right { float: right; }
+.center { text-align: center; }
+
+/* servers.php */
+.interestBox {
+	border: 1px solid #000;
+	background-color: #eee;
+	padding: 5px;
+}
+
+.server {
+	width: 200px;
+}
+
+.server h1 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.server h2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+.server .url {
+	position: absolute;
+	top: 0px;
+	right: 15px;
+}
+
+.server .header {
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.server table {
+	width: 200px;
+	border-collapse: collapse;
+	margin: 10px 0 0 0 !important;
+	font-size: 90%;
+}
+
+.server table th {
+	text-align: left;
+	background-color: #eee;
+}
+
+.server ul.staff {
+	margin: 5px 5px 5px 20px;
+	padding: 0;
+}
+
+.server ul.staff li {
+	line-height: 12pt;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+}
+
+/* channels.php, getting_started.php */
+.subMono {
+	font-family: monospace;
+	font-size: 8pt;
+	color: #000;
+}
+
+.channels td {
+	min-width: 100px;
+}
+
+/* help pages */
+.command {
+	color: orange;
+	font-weight: bold;
+}
